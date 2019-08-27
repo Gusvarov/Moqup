@@ -32,7 +32,15 @@ header {
     height: 300px;
 }
 
-main article h1 {
+main {
+    width: 550px;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main article h2 {
     text-align: center;
 }
 
@@ -40,17 +48,17 @@ main article p {
     width: 500px;
 }
 
-#about-us-left {
+#about-us-left-image {
     width: 500px;
     height: 400px;
 }
 
-#about-us-right {
+#about-us-right-image {
     width: 500px;
     height: 400px;
 }
 
-main section h1 {
+main section h2 {
     text-align: center;
 }
 
@@ -65,5 +73,9 @@ main section h1 {
 }
 
 #contacts h2 {
+    text-align: center;
+}
+
+#european-tour h4 {
     text-align: center;
 }
